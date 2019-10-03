@@ -1,0 +1,118 @@
+
+#diiv{
+  float: inherit;
+  margin: 2%;
+  width: 600px;
+  height: 400px;
+  border: 2px solid #ccc;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+#com{
+    float: right;
+    width: 80%;
+    height: 120px;
+    padding: 5px 2px;
+    margin-right: 10px; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: both;
+    font-family: 'Cairo', sans-serif;
+    font-style: oblique;
+    text-align: right;
+}
+
+/* commentaire */
+
+#cc{
+  text-align: center;
+  padding:2px 10px ;
+  font-family: 'Cairo', sans-serif;
+  border: 2px solid black;
+
+
+}
+#lab{
+  padding:9px 10px ;
+}
+#butback1{
+  background-color: white;
+  border: 2px solid #4CAF50;
+  color: black; 
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px ;
+  width: 80px;
+}
+#butback2{
+  background-color: white;
+  border: 2px solid black;
+  color: black; 
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 40px ;
+  width: 80px;
+}
+
+.Block{
+  padding:1px 1px ;
+}
+#but{
+  float: inherit;
+  width: 15%;
+  padding:6px 6px ;
+}
+#bt{
+  padding:1px 1px ;
+  margin: 5%;
+  text-align: center;
+  
+}
+
+.button {
+    border-radius: 100%;
+    border: azure solid 2px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 19px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 70px;
+    height: 70px;
+}
+
+  .button1 {
+    background-color:blueviolet ;
+  }
+  .button2 {
+    background-color: red;  
+  }
+
+  .button3 {
+    background-color: green; 
+  }
+
+  .button4 {
+    background-color: black;
+    
+  }

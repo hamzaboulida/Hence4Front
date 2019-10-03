@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lacquer&display=swap);
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)

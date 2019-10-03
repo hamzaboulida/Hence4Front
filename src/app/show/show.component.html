@@ -1,0 +1,19 @@
+<div id= "diiv">
+  <h2 id="cc">Commentaire</h2>
+  
+    <textarea readonly type="text"  id="com"  [formControl]="name"></textarea>
+    
+    <div id ='but'>
+      <p></p>
+      <button id="butback1"(click)="Start()">Let's Go</button><br/>
+      <button id="butback2" (click)="Back()">Back</button>
+    </div>
+    
+    <p id='bt'>
+      <button type="button" accesskey="a" (click)='positif()' class="button button1 ">positif</button>
+      <button type="button" accesskey="z" (click)='negatif()' class="button button2">negatif</button>
+      <button type="button" accesskey="e" (click)='neutre()' class="button button3">neutre</button>
+      <button type="button" accesskey="r" (click)='spam()' class="button button4">SPAM</button>
+    </p>
+  
+</div>

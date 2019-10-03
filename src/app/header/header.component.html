@@ -1,0 +1,25 @@
+<header>
+    <nav class ="navbar navbar-expand-md navbar-dark bg-dark">
+   
+    <div>
+        <a href="" class="navbar-brand">Hence4</a>
+    </div>
+    
+    <div>
+        <!-- <input  id='butback1' class="input-group-text"  -->
+        <input  id='butback1'  
+            type='file' (change)="fileChanged($event)">>
+    </div>
+    
+    <div>
+            <button id="butback2" type="button" class="btn btn-primary" 
+            (click)="upload()">Upload File</button>  
+    </div>
+    
+    <div>
+        <button class="btn" (click)="download()" ><i class="fa fa-download"></i> Download</button>
+    </div>
+</nav>
+    
+</header>
+ 

@@ -1,0 +1,56 @@
+#namer {
+    position: relative;
+    max-width: 400px;
+    margin: 20px auto 0;
+   }
+   
+   #namer input {
+    border: 0;
+    border-bottom: 2px solid rgb(20, 1, 29);
+    width: 100%;
+    font-size: 30px;
+    line-height: 35px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    background: transparent;
+    color:black ;
+   }
+   
+   #namer input.shake {
+    animation-name: shaker;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+   }
+   
+   #namer input:focus {
+    outline: 0;
+       color: rgb(22, 23, 24);
+   }
+   
+   #namer input::placeholder {
+    color: rgb(3, 8, 14);
+   }
+   
+   .namer-controls {
+    position: relative;
+    display: block;
+    height: 30px;
+    margin: 20px 0;
+    text-align: center;
+    opacity: 0.5;
+   }
+   
+   .namer-controls.active {
+    opacity: 1;
+    cursor: pointer;
+   }
+   
+  
+   
+  
+   
+  
+ 
+   
